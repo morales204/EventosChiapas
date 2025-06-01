@@ -185,3 +185,25 @@
 .card-color-space.color2 {
   background-color: #000000; 
 }
+
+
+/* Footee */
+.footer {
+  background-color: #000000; 
+  color: #ffffff;          
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
