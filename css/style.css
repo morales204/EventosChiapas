@@ -46,7 +46,7 @@
 }
 
 .card-content {
-  width: 1100px; /* ancho fijo igual para todos */
+  width: 1100px; 
   padding: 20px 25px;
   flex: 1;                
   display: flex;
@@ -68,5 +68,44 @@
   line-height: 1.5;
 }
 
+.titulo-nosotros, .descripcion-nosotros {
+    text-align: center;
+    font-family: 'Georgia', serif; 
+  }
+  
+  .titulo-nosotros {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion-nosotros {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
-
+  .seccion-nosotros {
+    background-color: #f8d38b; 
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .titulo-nosotros, .descripcion-nosotros {
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  
+  .titulo-nosotros {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion-nosotros {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
