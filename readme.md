@@ -7,10 +7,10 @@ El sitio web solo tendrá una página principal, una página para
 listar eventos y una página de contacto(sin conexión a bases de datos).
 
 # Integrantes
-- Mariana Morales Rodríguez
-- Juan Carlos Rodríguez Núñez
-- Bryan de Jesús Hernández Luna
-- Evelyn Jazmín Pérez Sánchez
+- Mariana Morales Rodríguez %100
+- Juan Carlos Rodríguez Núñez %100
+- Bryan de Jesús Hernández Luna %100
+- Evelyn Jazmín Pérez Sánchez %100
 
 
 # Objetivos del proyecto
