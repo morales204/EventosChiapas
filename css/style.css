@@ -543,3 +543,212 @@ body {
         margin: 25px 0px 10px 0px;
     }
 }
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .custom-button {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 16px;
+
+  }
+
+  .bottom-25 {
+    bottom: 25px;
+  }
+
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  background-color: #f9f7f1; 
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 300px;
+  align-items: center;      
+  justify-content: flex-start; 
+}
+
+.card img {
+  width: 250px;           
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;  
+}
+
+.card-content {
+  width: 1100px; 
+  padding: 20px 25px;
+  flex: 1;                
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.card-content h3 {
+  margin: 0 0 12px 0;     
+  font-size: 1.5rem;
+  color: #222;
+  line-height: 1.2;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.titulo-nosotros, .descripcion-nosotros {
+    text-align: center;
+    font-family: 'Georgia', serif; 
+  }
+  
+  .titulo-nosotros {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion-nosotros {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .seccion-nosotros {
+    background-color: #f8d38b; 
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .titulo-nosotros, .descripcion-nosotros {
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  
+  .titulo-nosotros {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion-nosotros {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-card.full-width {
+  display: flex;
+  height: 400px;
+  width: 100vw; 
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del texto */
+.card-text {
+  flex: 1;
+  padding: 30px;
+  background-color: #f8d38b;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-text h3 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Contenedor de la imagen */
+.card-image {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.card-image img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.card-color-space {
+  width: 200px;
+  background-color: #f8d38b;
+}
+
+
+.card-text.color1 {
+  background-color: #f8d38b; /* fondo dorado claro */
+  color: #0b0b0b;               /* texto oscuro */
+}
+
+.card-text.color2 {
+  background-color: #000000;
+  color: #fff;             
+}
+
+.card-color-space.color1 {
+  background-color: #f8d38b; 
+}
+
+.card-color-space.color2 {
+  background-color: #000000; 
+}
+
+
+/* Footee */
+.footer {
+  background-color: #000000; 
+  color: #ffffff;          
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
