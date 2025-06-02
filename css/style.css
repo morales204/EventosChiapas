@@ -11,6 +11,8 @@
 body {
   background-color: #080202;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
@@ -654,11 +656,6 @@ body {
     line-height: 1.6;
   }
   
-  body {
-  margin: 0;
-  padding: 0;
-}
-
 .custom-card.full-width {
   display: flex;
   height: 400px;
