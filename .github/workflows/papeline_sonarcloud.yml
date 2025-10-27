@@ -1,4 +1,4 @@
-name: "CI - SonarCloud en GitHub Actions"
+name: "CI - SonarCloud en GitHub Actions Sin A"
 
 on:
   push:
