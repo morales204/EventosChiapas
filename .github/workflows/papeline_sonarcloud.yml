@@ -1,25 +1,19 @@
-name: "CI - SonarCloud en GitHub Actions Sin A"
-
+name: Build
 on:
   push:
-    branches: [ "main", "master" ]
+    branches:
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
-
 jobs:
-  analyze:
+  sonarqube:
+    name: SonarQube
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@v3.1.0
+      - uses: actions/checkout@v4
         with:
-          args: >
-            -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }}
-            -Dsonar.projectKey=morales204_EventosChiapas
-            -Dsonar.host.url=https://sonarcloud.io
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
-          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
